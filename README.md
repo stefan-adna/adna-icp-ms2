@@ -7,8 +7,7 @@ Deliverables:
 
 ## Implementation
 
-We have refactored the A.DNA Hashing Service to support multiple Blockchains to store the hashes. To implement a new provider a class inherited from `IHashingBlockchainService` must be implemented. The full implementation can be found in the `src/IcpHashingBlockchainService.cs`. Because the A.DNA Software is closed source at this moment we cannot share any more code related to this integration into the A.DNA Vault.
-```
+We have refactored the A.DNA Hashing Service to support multiple Blockchains. To implement a new provider a class inherited from `IHashingBlockchainService` must be implemented. The full implementation can be found in the `src/IcpHashingBlockchainService.cs`. Because the A.DNA Software is closed source at this moment we cannot share any more code related to this integration into the A.DNA Vault.
 
 
 ```c#
